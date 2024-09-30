@@ -12,6 +12,12 @@ Este proyecto permite gestionar una lista de cursos.
 - Se añadió una lista de cursos vacía.
 - Se implementó la funcionalidad de navegación entre las secciones.
 
+### 3. Gestión de Cursos:
+- Se añadió un formulario para agregar nuevos cursos.
+- Los cursos se añaden dinámicamente a la lista de cursos.
+- Se implementó un botón de "Ver más detalles" que muestra más información del curso utilizando JavaScript.
+
+
 ## Tecnologías Utilizadas:
 - **HTML5**
 - **CSS3**
