@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Cursos</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="showSection('cursos')">Cursos</a></li>
+                <li><a href="#" onclick="showSection('agregar-curso')">Agregar Curso</a></li>
+                <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Bienvenido a la Gestión de Cursos</h2>
+    </section>
+    <section id="cursos" style="display: none;">
+        <h2>Lista de Cursos</h2>
+        <!-- Aquí irá la lista de cursos -->
+    </section>
+    <section id="agregar-curso" style="display: none;">
+        <h2>Agregar un Curso</h2>
+        <!-- Aquí irá el formulario para agregar curso -->
+    </section>
+    <section id="contacto" style="display: none;">
+        <h2>Contacto</h2>
+        <!-- Aquí irán los datos de contacto -->
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
