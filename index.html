@@ -29,8 +29,26 @@
     </section>    
     <section id="agregar-curso" style="display: none;">
         <h2>Agregar un Curso</h2>
-        <!-- Aquí irá el formulario para agregar curso -->
+        <form id="form-curso">
+            <label for="nombre">Nombre del Curso:</label>
+            <input type="text" id="nombre" required><br>
+    
+            <label for="instructor">Instructor:</label>
+            <input type="text" id="instructor" required><br>
+    
+            <label for="fecha">Fecha de Inicio:</label>
+            <input type="date" id="fecha" required><br>
+    
+            <label for="duracion">Duración (semanas):</label>
+            <input type="number" id="duracion" required><br>
+    
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion"></textarea><br>
+    
+            <button type="submit">Agregar Curso</button>
+        </form>
     </section>
+    
     <section id="contacto" style="display: none;">
         <h2>Contacto</h2>
         <!-- Aquí irán los datos de contacto -->
